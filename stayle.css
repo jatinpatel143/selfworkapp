@@ -186,23 +186,24 @@
 }
 .text-section2{
     width: 100%;
-    height: auto;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     justify-content: space-evenly;
-    padding-top: 50px;
-    padding-inline: 100px;
-    
+    /* padding-top: 50px; */
+    padding-inline: 120px;
+    /* background-color: aqua; */
 }
 
 .text-pard3{
     width: 50%;
-    height: auto;
+    height: 100%;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: column;
+    /* background-color: blueviolet; */
 }
 
 .text-pard3 h1{
@@ -215,11 +216,13 @@
 
 .text-pard4{
     width: 50%;
-    height: auto;
+    height: 100%;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     flex-direction: column;
+    /* background-color: brown; */
+    /* padding-left: 20%; */
 }
 
 .text-pard4 h1{
@@ -262,10 +265,11 @@
     width: 300px;
 }
 
-.left h1{
+.right h1{
     font-size: 40px;
     font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .left p{
@@ -276,6 +280,18 @@
     text-align: center;
     font-size: 40px;
     margin-top: 30px;
+}
+
+.jone{
+    width: 100%;
+    height: auto;
+    /* text-align: center; */
+}
+
+.jone h1{
+    text-align: center;
+    font-size: 40px;
+    color: green;
 }
 
 .text-section4{
@@ -418,7 +434,7 @@
 
 .text-section7{
     width: 100%;
-    height: 30vh;
+    height: 40vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -509,4 +525,282 @@
 
 .footer ul span i{
     color: white;
+}
+
+@media (max-width:768px){
+
+
+    .main-countainer{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+
+    .countainer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-top: 50px;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+    }
+
+    .text-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+    }
+    .main-countainer {
+        padding-inline: none;
+    }
+
+    .text-section br{
+        display: none;
+    }
+
+    .text-section p{
+        font-size: 18px;
+    }
+    .text-section h1{
+        font-size: 35px;
+    }
+
+    .text-section h6{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    .text-section ul{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .button-section{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+
+    .img-pard{
+        width: 100%;
+        height: auto;
+        /* padding-inline: 50px; */
+    }
+
+    .img-pard img{
+        width: 550px;
+    }
+
+    .text-section1{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .text-section1 br{
+        display: none;
+    }
+
+    .text-part1{
+        width: 100%;
+        height: auto;
+    }
+
+    .text-part2{
+        width: 100%;
+        height: auto;
+    }
+
+    .img-section{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding-top: 40px;
+    }
+
+    .images{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .images img{
+        width: 300px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+
+    .scop{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+
+    }
+    .scop img{
+        width: 600px;
+    }
+
+    .text-section2{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+    }
+    .text-pard3{
+        width: 100%;
+        height: auto;
+    }
+    .text-pard3 br{
+        display: none;
+    }
+
+    .text-pard4{
+        width: 100%;
+        height: auto;
+        /* padding-right: 50px; */
+    
+  
+    }
+    .text-pard4 br{
+        display: none;
+    }
+    .text-section3{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        
+    }
+
+    .left{
+        width: 100%;
+        height: auto;
+    }
+    .left br{
+        display: none;
+    }
+
+    .left h1{
+        font-size: 30px;
+    
+    }
+    .left p{
+        font-size: 15px;
+    }
+
+    .right{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+
+    .right img{
+        width: 400px;
+    }
+
+    .text-section4{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left1{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+    }
+
+    .right1{
+        width: 100%;
+        height: auto;
+        padding-top: 30px;
+    }
+    
+
+    .img-section5{
+        width: 100%;
+        height: auto;
+
+    }
+    .box-countainer{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .pard-three{
+        width: 100%;
+        height: auto;
+    }
+    .pard-four{
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+    }
+
+    .text-section6{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+
+    .box-section{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        
+    }
+
+    .box-section img{
+        padding-top: 40px;
+        width: 400px;
+        padding-bottom: 50px;
+    }
+
+    .text-section7{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .input-section{
+        width: 100%;
+        height: auto;
+    }
+
+    .footer{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+
+
+    
+
+
+
+
+
+
+
 }
